@@ -26,8 +26,8 @@
             flex-wrap: wrap;
 
             .service-padding{
-                width: 33.33%;
                 padding: 15px;
+                margin: 20px 0;
 
                 .service-card1{
                     position: relative;
@@ -73,12 +73,27 @@
         }
     }
 }
-@media screen and (max-width:760px){
-   
-    
+@media screen and (min-width: 320px){
+
+    .service-padding{
+        width: 100%;
+
+    }
+
 
 }
-@media screen and (max-width:1280px){
-    
+@media screen and (min-width: 600px){
+   
+    .service-padding{
+        width: 50%;
 
+    }
+    
+}
+@media screen and (min-width: 1024px){
+
+    .service-padding{
+        width: 33.33%;
+
+    }
 }

@@ -9,14 +9,11 @@
 
 
         .about-content1{
-            width: 50%;
-
            
 
 
         }
         .about-content2{
-            width: 50%;
             height: 80vh;
             display: flex;
             align-items: center;
@@ -57,4 +54,38 @@
 
 
     }
+}
+
+@media screen and (min-width: 320px){
+
+    .about-content1{
+        width: 100%;
+    }
+    .about-content2{
+        width: 100%;
+
+    }
+}
+@media screen and (min-width: 600px){
+   
+    .about-content1{
+        width: 50%;
+    }
+    .about-content2{
+        width: 50%;
+
+    }
+    
+    
+}
+@media screen and (min-width: 1024px){
+
+    .about-content1{
+        width: 50%;
+    }
+    .about-content2{
+        width: 50%;
+
+    }
+    
 }

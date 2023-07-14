@@ -30,6 +30,20 @@ const Services = () => {
                     
 
                 </div>
+                <div className='service-padding'>
+                    <div className='service-card1' onClick={ () => navigate ("/kitchen-design")} >
+                        
+                        <div className='service-img'>
+                            <img src={require('../../assets/img/wedding.jpg')}  alt="" />
+                        </div>
+                        <div className='service-title'>
+                            <p> WEDDING PHOTOGRAPHY</p>
+                        </div>
+                        
+                    </div>
+                    
+
+                </div>
                 
             </div>
         </div>

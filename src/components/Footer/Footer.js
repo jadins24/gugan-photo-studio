@@ -5,7 +5,12 @@ const Footer = () => {
     <div className='footer'>
         <div className='footer-container'>
             <div className='footer-content1'>
-                dinesh
+                <div className='footer-icons'>
+                    <a href='/'><i className='fab fa-whatsapp'></i></a>
+                    <a href='/'><i className='fab fa-facebook'></i></a>
+                    <a href='/'><i className='fab fa-instagram'></i></a>
+                    <a href='/'><i className='fab fa-facebook'></i></a>
+                </div>
             
             </div>
             <div className='footer-content2'>
@@ -15,7 +20,7 @@ const Footer = () => {
                 
             </div>
             <div className='footer-content3'>
-                hi
+                <p>©2023 GUGAN PHOTO STUDIO</p>
             </div>
             
 
