@@ -6,6 +6,7 @@ const Gallery = () => {
   return (
     <div className='gallery'>
         <div className='gallery-head'>
+          <div className='gallery-head-text'> </div>
 
         </div>
         <div className='gallery-container'>
@@ -21,6 +22,18 @@ const Gallery = () => {
               </div>
               <div className='image'>
                 <img src={require('../../assets/img/wedding3.jpg')} class="logo-img" alt="" />
+                
+              </div>
+              <div className='image'>
+                <img src={require('../../assets/img/photo1.jpg')} class="logo-img" alt="" />
+                
+              </div>
+              <div className='image'>
+                <img src={require('../../assets/img/photo1.jpg')} class="logo-img" alt="" />
+                
+              </div>
+              <div className='image'>
+                <img src={require('../../assets/img/photo2.jpg')} class="logo-img" alt="" />
                 
               </div>
 

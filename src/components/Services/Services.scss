@@ -31,7 +31,7 @@
 
                 .service-card1{
                     position: relative;
-                    transition: all 5sease-in-out;
+                    
 
                     .service-img{
                         width: 100%;
@@ -49,8 +49,10 @@
                         right: 0;
                         left: 42px;
                         bottom: 28px;
-                        background: #9c5451;
+                        background: #f2f2f2 ;
                         z-index: -1;
+                        transition: all 500m
+                        s ease-in-out;
         
                     }
                     .service-title{
@@ -66,7 +68,7 @@
                     
                 }
                 .service-card1:hover .service-img::before {
-                    background-color: aqua;
+                    background-color: #9c5451;
                 }
                    
             }

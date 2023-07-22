@@ -17,7 +17,7 @@ const Services = () => {
             </div>
             <div className='services'>
                 <div className='service-padding'>
-                    <div className='service-card1' onClick={ () => navigate ("/kitchen-design")} >
+                    <div className='service-card1' onClick={ () => navigate ("/wedding-photography")} >
                         
                         <div className='service-img'>
                             <img src={require('../../assets/img/wedding.jpg')}  alt="" />
@@ -34,7 +34,7 @@ const Services = () => {
                     <div className='service-card1' onClick={ () => navigate ("/kitchen-design")} >
                         
                         <div className='service-img'>
-                            <img src={require('../../assets/img/wedding.jpg')}  alt="" />
+                            <img src={require('../../assets/img/candid.jpg')}  alt="" />
                         </div>
                         <div className='service-title'>
                             <p> WEDDING PHOTOGRAPHY</p>

@@ -6,9 +6,9 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import NavBar from "./components/Header/NavBar";
 import Services from "./components/Services/Services";
-import Kitchendesign from "./components/Services/Ktchen design/Kitchendesign";
 import Bedroomdesign from "./components/Services/Bedroom design/Bedroomdesign";
 import Gallery from "./components/Gallery/Gallery" ;
+import Wedding from "./components/Services/wedding/wedding";
 
 
 function Routing() {
@@ -39,7 +39,7 @@ function Routing() {
             <Route path="/contact" element={<Contact />} />
             
             {/* services */}
-            <Route path="/kitchen-design" element={<Kitchendesign />} />
+            <Route path="/wedding-photography" element={<Wedding />} />
             <Route path="/bedroom-design" element={<Bedroomdesign />} />
 
 
